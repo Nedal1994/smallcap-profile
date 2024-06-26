@@ -1,0 +1,130 @@
+/* Resetting default margin and padding, and setting font-family */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Ensuring the app takes up the full height of the viewport */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Setting the width of the header and footer to 100% */
+header, footer {
+  width: 100%;
+}
+
+/* Styling for the main content area */
+main {
+  flex: 1;
+  padding: 0px;
+  background: #f0f0f0;
+}
+
+/* Styling for the hero section */
+/* Adjust padding of the hero section to prevent overflow */
+.hero {
+  background: url('../assets/images/hero-image.png') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 250px; /* Adjust the padding for better appearance */
+  z-index: 0;
+}
+
+
+/* Styling for the hero content */
+.hero-content {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+/* Styling for the hero title */
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Styling for the hero subtitle */
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+/* Styling for call-to-action button */
+.cta {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Styling for information sections */
+.info-section, .features-section, .stats-section, .video-section, .testimonials-section, .subscription {
+  margin: 20px 0;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+}
+
+/* Styling for feature, stat, and testimonial sections */
+.features, .stats, .testimonials {
+  display: flex;
+  justify-content: space-around;
+}
+
+.feature, .stat, .testimonial {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  background: #f0f0f0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Styling for video section */
+.video-section video {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* Styling for subscription form */
+.subscription form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Styling for subscription form input */
+.subscription input {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Styling for subscription form button */
+.subscription button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+header {
+  z-index: 1000; /* Adjust the z-index value as needed */
+}
+
+.video-section {
+  z-index: 999; /* Ensure the z-index is lower than the header */
+}

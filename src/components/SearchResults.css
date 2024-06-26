@@ -1,0 +1,51 @@
+/* SearchResults.css */
+.search-results {
+    padding: 20px;
+    margin-top: 70px; /* Adjust for fixed header */
+  }
+  
+  .search-results h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #333;
+    color: white;
+    user-select: none;
+  }
+  
+  th:hover {
+    background-color: #444;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

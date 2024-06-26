@@ -1,0 +1,108 @@
+.tokenomics 
+{
+  padding: 100px 0 0px 0; /* Adjust padding according to header height */
+
+}
+
+.hero-banner-tokenomics {
+  z-index: 0;
+  color: white;
+  text-align: center;
+  padding: 80px; /* Adjust padding for better appearance */
+  max-width: 100%;
+  background-size: cover; /* Make sure the background image covers the entire area */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center; /* Center the background image */
+}
+
+.tokenomics-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0px;
+
+}
+
+.tokenomics-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.token-info,
+.chart-legend {
+  flex: 1;
+  padding: 20px;
+}
+
+.chart-container {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chart-legend ul,
+.token-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.legend-color {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.token-info h2,
+.chart-legend h2 {
+  margin-bottom: 15px;
+  color: #0D0638;
+
+}
+
+.token-info ul,
+.chart-legend ul {
+  color: #0D0638;
+}
+
+.additional-info {
+  background-color: #0D0638;
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.additional-info h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+
+}
+
+.additional-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.additional-info li {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .hero-banner-tokenomics {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-banner-tokenomics {
+    padding: 20px;
+  }
+}
+  

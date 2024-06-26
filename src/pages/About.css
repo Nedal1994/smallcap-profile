@@ -1,0 +1,177 @@
+/* About.css */
+.about {
+  padding: 0px; /* Adjust padding according to header height */
+}
+
+.about-hero {
+  z-index: 0;
+  background: url('/src/assets/images/About2.png') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px; /* Adjust padding for better appearance */
+  max-width: 100%;
+}
+
+.about-hero-content {
+  /* background: rgba(0, 0, 0, 0.7); /* Darken the background */
+  padding: 30px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.about h2 {
+  font-size: 2.0em; /* Corrected font size */
+  margin: 20px 0;
+  text-align: center; /* Center the text */
+}
+
+.about h1 {
+  font-size: 3.5em; /* Increase font size for headings */
+  margin: 20px 0;
+  text-align: center; /* Center the text */
+}
+
+.about p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  line-height: 1.6; /* Improve readability */
+  padding: 20px;
+  text-align: center;
+}
+
+.about-section {
+  background: #1a237e; /* Indigo */
+  padding: 40px;
+  margin: 30px 0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  justify-content: center;
+}
+
+.team-member {
+  text-align: center;
+  margin: 20px;
+}
+
+.team-member img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 4px solid #ffffff; /* Add border for better visibility */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+.use-cases {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the elements horizontally */
+  align-items: center; /* Center the elements vertically */
+  gap: 20px; /* Add some space between elements */
+}
+
+.use-case {
+  flex: 1;
+  margin: 20px 10px;
+  padding: 30px 20px;
+  background: #370A3B; /* Dark Indigo */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+}
+
+.about-gallery img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow for images */
+}
+
+.about-video video {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow for video */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+  .about-hero {
+      padding: 80px;
+  }
+  .about h1 {
+      font-size: 3em;
+  }
+  .about h2 {
+      font-size: 1.8em;
+  }
+  .about p {
+      font-size: 1.1em;
+  }
+  .use-case {
+      flex: 1 1 45%;
+  }
+}
+
+@media (max-width: 992px) {
+  .about-hero {
+      padding: 60px;
+  }
+  .about h1 {
+      font-size: 2.5em;
+  }
+  .about h2 {
+      font-size: 1.6em;
+  }
+  .about p {
+      font-size: 1em;
+  }
+  .use-case {
+      flex: 1 1 100%;
+      margin: 20px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-hero {
+      padding: 40px;
+  }
+  .about h1 {
+      font-size: 2em;
+  }
+  .about h2 {
+      font-size: 1.4em;
+  }
+  .about p {
+      font-size: 0.9em;
+      padding: 10px;
+  }
+  .team-member img {
+      width: 150px;
+      height: 150px;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-hero {
+      padding: 20px;
+  }
+  .about h1 {
+      font-size: 1.8em;
+  }
+  .about h2 {
+      font-size: 1.2em;
+  }
+  .about p {
+      font-size: 0.8em;
+      padding: 5px;
+  }
+  .team-member img {
+      width: 100px;
+      height: 100px;
+  }
+}

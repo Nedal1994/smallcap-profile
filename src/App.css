@@ -1,0 +1,21 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header, footer {
+  width: 100%;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  background: #f0f0f0;
+}

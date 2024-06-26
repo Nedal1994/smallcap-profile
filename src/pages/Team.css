@@ -1,0 +1,64 @@
+/* Team.css */
+
+.team-page {
+  padding-top: 100px; /* Adjust based on your header height */
+}
+
+.hero-banner {
+  background-image: url('../assets/images/team.png'); /* Add your hero banner image */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-banner h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-banner p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.team-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px 20px;
+}
+
+.team-members {
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.team-member {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.team-member h2 {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.team-member p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #666;
+}
